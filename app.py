@@ -12,7 +12,7 @@ st.markdown("""
     .main { background-color: #f0f2f6; }
     .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 2px 2px 5px #ccc; }
     </style>
-    """, unsafe_allow_帖=True)
+  """, unsafe_allow_html=True)
 
 st.title("🏟️ IPL Real-Time 20+ Factor Prediction Engine")
 st.write(f"**Last Sync:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
